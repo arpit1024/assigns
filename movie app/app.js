@@ -35,7 +35,6 @@ app.get('/movies', async(req,res)=>{
 app.post("/movies", async(req,res)=>{
     try{
         const user = await Movie.create(req.body);
-        console.log("inside post");
         res.status(201).send(user);
     }catch(e){
         res.status(500).json({message:e.message, status:"Failed"});
