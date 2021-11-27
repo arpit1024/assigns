@@ -61,7 +61,7 @@ app.patch('/movies/:id', async(req,res)=>{
     }
 })
 
-app.delete('/users/:id', async(req,res)=>{
+app.delete('/movies/:id', async(req,res)=>{
     try{
         const movie = await Movie.findByIdAndDelete(req.params.id,{new:true}).lean().exec();
         res.send({movie});
