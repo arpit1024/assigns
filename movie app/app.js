@@ -1,5 +1,8 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const app = express();
+app.use(express.json());
+
 
 const connect = ()=>{
     try{
@@ -19,12 +22,9 @@ const movieSchema = new mongoose.Schema({
 
 const Movie = mongoose.model("movie", movieSchema);
 
-const app=express();
-app.use(express.json());
-
-app.get('/movies',async(req,res)=>{
+app.get('/movies', async(req,res)=>{
     try{
-        const users=await Movie.find().lean().exec();
+        const users = await Movie.find().lean().exec();
         res.send({users});
     }
     catch(e){
@@ -34,7 +34,7 @@ app.get('/movies',async(req,res)=>{
 
 app.post("/movies", async(req,res)=>{
     try{
-        const user=await Movie.create(req.body);
+        const user = await Movie.create(req.body);
         console.log("inside post");
         res.status(201).send(user);
     }catch(e){
@@ -54,7 +54,7 @@ app.get('/movies/:id', async(req,res)=>{
 
 app.patch('/movies/:id', async(req,res)=>{
     try{
-        const movie=await Movie.findByIdAndUpdate(req.params.id, req.body, {new:true});
+        const movie = await Movie.findByIdAndUpdate(req.params.id, req.body, {new:true});
         res.send({movie});
     }
     catch(e){
