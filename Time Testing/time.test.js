@@ -1,4 +1,3 @@
-const { expect } = require("@jest/globals");
 const {findTime} = require("./time");
 
 describe("Time Testing Programm",()=>{
