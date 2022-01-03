@@ -1,0 +1,61 @@
+{
+  "receipies": [
+    {
+      "title": "Burger ",
+      "ingredients": "A,B,C,D",
+      "time": "30",
+      "instructions": "FIRST A, THEN COOK B THEN C THEN D",
+      "image": "C:\\fakepath\\FSP3.jpg",
+      "id": 1
+    },
+    {
+      "title": "PIZZA",
+      "ingredients": "B,V,D,S",
+      "time": "90",
+      "instructions": "FIRST COOK V, THEN C , THEN D, THEN S",
+      "id": 2
+    },
+    {
+      "title": "PIZZA",
+      "ingredients": "B,V,D,S",
+      "time": "90",
+      "instructions": "FIRST COOK V, THEN C , THEN D, THEN S",
+      "id": 3
+    },
+    {
+      "title": "PIZZA",
+      "ingredients": "B,V,D,S",
+      "time": "90",
+      "instructions": "FIRST COOK V, THEN C , THEN D, THEN S",
+      "id": 4
+    },
+    {
+      "title": "A",
+      "ingredients": "D",
+      "time": "34",
+      "instructions": "21",
+      "id": 5
+    },
+    {
+      "title": "as",
+      "ingredients": "sd",
+      "time": "3",
+      "instructions": "42",
+      "id": 6
+    },
+    {
+      "title": "A",
+      "ingredients": "B",
+      "time": "23",
+      "instructions": "adeas",
+      "id": 7
+    },
+    {
+      "title": "a",
+      "ingredients": "dd",
+      "time": "4",
+      "instructions": "4345",
+      "id": 8
+    }
+  ]
+}
