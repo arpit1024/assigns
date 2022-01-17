@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "a",
+      "email": "a@k.com",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+  "admins": [
+    {
+      "email": "a@a.com",
+      "password": "abcde"
+    },
+    {
+      "email": "b@b.com",
+      "password": "abcde"
+    },
+    {
+      "email": "c@c.com",
+      "password": "abcde"
+    }
+  ],
+  "jobs": [
+    {
+      "company_name": "ASDd",
+      "job_title": "dsasd",
+      "job_description": "adsas",
+      "location": "dasdsad",
+      "job_type": "sdsadasd",
+      "id": 1,
+      "applied": true
+    }
+  ]
+
+}
