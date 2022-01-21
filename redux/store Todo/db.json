@@ -1,0 +1,16 @@
+{
+  "Todos": [
+    {
+      "status": false,
+      "title": "Learn react",
+      "description": "Redux state management",
+      "id": "HbnUKnYGvoat2y_MLa05e"
+    },
+    {
+      "status": true,
+      "title": "Learn Mongo",
+      "description": "ABSXAX",
+      "id": "9fFv0JzqTTdno3ybCUfQZ"
+    }
+  ]
+}
