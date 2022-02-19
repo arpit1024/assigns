@@ -1,0 +1,9 @@
+.formCont {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: auto;
+}
+.formCont input {
+  margin-top: 20px;
+}
