@@ -32,6 +32,9 @@ export const EmployerLogin = () => {
   };
   return (
     <>
+    <div>
+        Use Email: "eve.holt@reqres.in" and password: "cityslicka" to login
+      </div>
       <h1>Employer Login Page</h1>
       <div className="formCont">
         <input
