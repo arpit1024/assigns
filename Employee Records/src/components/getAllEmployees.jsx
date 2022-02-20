@@ -101,6 +101,10 @@ export const Employees = () => {
   if (+page > 5) {
     startPage = +page - 5;
     endPage = +page + 5;
+    if (startPage >= 95) {
+      startPage = 95;
+      endPage = 100;
+    }
   } else {
     startPage = 1;
     endPage = 10;
