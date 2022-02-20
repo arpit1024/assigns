@@ -20,7 +20,7 @@ userSchema.pre("save", function (next) {
     return next();
   });
 });
-
+//this
 userSchema.methods.checkPassword = function (password) {
   return new Promise((resolve, reject) => {
     bcrypt.compare(password, this.password, function (err, same) {
